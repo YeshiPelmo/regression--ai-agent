@@ -21,7 +21,7 @@ Welcome to the **Insurance Cost Predictor**, an advanced machine learning tool d
 
 @st.cache_data
 def load_data():
- path=r"C:\Users\tlhun\OneDrive\Desktop\Baruch\DataMining\Project 1\regression--ai-agent\data\raw\insurance.csv"
+ path="data/raw/insurance.csv"
  df = pd.read_csv(path)
  return df
 
